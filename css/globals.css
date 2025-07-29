@@ -291,6 +291,137 @@
   text-decoration: underline;
 }
 
+/* Review Highlights Section */
+.review-highlights-custom {
+  max-width: 480px;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.review-highlights-custom .review-highlights {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.review-highlights-custom .testimonial-heading {
+  margin-bottom: 12px;
+}
+
+.review-highlights-custom .celebrity-quote {
+  background-color: #f8f8f8;
+  border-left: 4px solid #ffd700;
+  padding: 12px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.review-highlights-custom .customer-testimonials li {
+  margin-bottom: 12px;
+}
+
+.review-highlights-custom .social-proof-stats {
+  background-color: #e6f2ff;
+  border-radius: 6px;
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+/* Celebrity Collaboration Hero Section */
+.celebrity-hero {
+  max-width: 480px;
+  padding: 16px;
+  font-size: 14px;
+}
+
+.celebrity-hero .hero-video {
+  margin-bottom: 12px;
+}
+
+.celebrity-hero .video-sound-button {
+  background: #f0f0f0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.celebrity-hero .product-title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #5e4b8b;
+}
+
+.celebrity-hero .celebrity-quote {
+  font-style: italic;
+  border-left: 3px solid #ccc;
+  padding-left: 12px;
+  margin-bottom: 12px;
+}
+
+.celebrity-hero .price {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.celebrity-hero .discount {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.celebrity-hero .rating {
+  background-color: #fff9c4;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.celebrity-hero .trust-badges .badge {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.celebrity-hero .ecommerce-controls select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.celebrity-hero .ecommerce-controls .quantity-input {
+  width: 60px;
+  padding: 6px;
+}
+
+.celebrity-hero .ecommerce-controls .waitlist-button {
+  background: gray;
+  font-style: italic;
+  cursor: not-allowed;
+}
+
+.celebrity-hero .ecommerce-controls .wishlist-button {
+  border: 1px solid;
+  padding: 8px;
+}
+
+.celebrity-hero .stock-info {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.celebrity-hero .contact-info {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  text-decoration: underline;
+}
+
 /* Mobile-first optimizations */
 @media (max-width: 480px) {
   .footer-collaborations {

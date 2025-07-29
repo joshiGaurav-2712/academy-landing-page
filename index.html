@@ -118,103 +118,76 @@
         </div>
         <img class="container-9" src="img/container.svg" alt="Container" />
         <div class="product-hero-section">
-          <!-- 🎬 Video Integration -->
-          <div class="hero-video">
-            <video autoplay muted loop playsinline style="width: 100%; height: 200px; object-fit: cover;">
-              <source src="video/jelly-roll-ad.mp4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-            <button class="video-sound-button">🔊 Hear Jelly Roll's Reaction</button>
+          <div class="celebrity-hero">
+            <div class="hero-video">
+              <video autoplay muted loop playsinline style="width: 100%; height: 200px; object-fit: cover;">
+                <source src="video/jelly-roll-ad.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <button class="video-sound-button">🔊 Hear Jelly Roll's Reaction</button>
+            </div>
+
+            <div class="celebrity-branding">
+              <div class="badge">🎵 CELEBRITY COLLABORATION</div>
+              <h1 class="product-title">Jelly Roll x HEYDUDE Men's Wally Sox Shoes</h1>
+              <blockquote class="celebrity-quote">"Fire. So good. I think this is almost every tattoo on my face."
+              </blockquote>
+            </div>
+
+            <div class="product-info">
+              <div class="price-section">
+                <h2 class="price">$42.97</h2>
+                <p class="discount">(was $59.99) SAVE $17.02 (28%)</p>
+                <p class="credit-card-price">$40.82 with Academy Credit Card (5% discount)</p>
+              </div>
+              <div class="rating">
+                <span class="stars">⭐ 4.8</span>
+                <span class="reviews">(14,457 reviews)</span>
+              </div>
+            </div>
+
+            <div class="trust-badges">
+              <div class="badge">🎨 Personal Tattoo Designs</div>
+              <div class="badge">⭐ Celebrity Approved</div>
+              <div class="badge">🏆 Limited Edition</div>
+              <div class="badge">🛍️ Exclusive at Academy</div>
+            </div>
+
+            <div class="ecommerce-controls">
+              <div class="color-selection">
+                <label>Color:</label>
+                <span>Black</span>
+              </div>
+              <div class="size-selection">
+                <label>Shoe Size:</label>
+                <select>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option selected>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                  <option>13</option>
+                </select>
+              </div>
+              <div class="width-selection">
+                <label>Width:</label>
+                <select>
+                  <option selected>D-Standard</option>
+                </select>
+              </div>
+              <div class="quantity-selection">
+                <label>Quantity:</label>
+                <input type="number" class="quantity-input" value="1" min="1">
+              </div>
+              <button class="waitlist-button" disabled>Waitlist</button>
+              <button class="wishlist-button">Add to Wishlist</button>
+            </div>
+
+            <div class="stock-info">22 PEOPLE ARE SHOPPING NOW</div>
+            <div class="contact-info">📞 Call us at <a href="tel:+123456789">+1 234 567 89</a></div>
           </div>
 
-          <!-- 🌟 Celebrity Branding -->
-          <div class="celebrity-branding">
-            <div class="badge">🎵 CELEBRITY COLLABORATION</div>
-            <h1 class="product-title">Jelly Roll x HEYDUDE Men's Wally Sox Shoes</h1>
-            <blockquote class="celebrity-quote">"Fire. So good. I think this is almost every tattoo on my face."
-            </blockquote>
-          </div>
-
-          <!-- 🛒 Product Info -->
-          <div class="product-info">
-            <div class="price-section">
-              <h2 class="price">$42.97</h2>
-              <p class="discount">(was $59.99) SAVE $17.02 (28%)</p>
-              <p class="credit-card-price">$40.82 with Academy Credit Card (5% discount)</p>
-            </div>
-            <div class="rating">
-              <span class="stars">⭐ 4.8</span>
-              <span class="reviews">(14,457 reviews)</span>
-            </div>
-          </div>
-
-          <!-- ✅ Trust Badges -->
-          <div class="trust-badges">
-            <div class="badge">🎨 Personal Tattoo Designs</div>
-            <div class="badge">⭐ Celebrity Approved</div>
-            <div class="badge">🏆 Limited Edition</div>
-            <div class="badge">🛍️ Exclusive at Academy</div>
-          </div>
-
-          <!-- 📦 E-commerce Controls -->
-          <div class="ecommerce-controls">
-            <div class="color-selection">
-              <label>Color:</label>
-              <span>Black</span>
-            </div>
-            <div class="size-selection">
-              <label>Shoe Size:</label>
-              <select>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option selected>10</option>
-                <option>11</option>
-                <option>12</option>
-                <option>13</option>
-              </select>
-            </div>
-            <div class="width-selection">
-              <label>Width:</label>
-              <select>
-                <option selected>D-Standard</option>
-                <option>W-Wide</option>
-              </select>
-            </div>
-            <div class="quantity-controls">
-              <label>Quantity:</label>
-              <input type="number" value="1" min="1" />
-            </div>
-          </div>
-
-          <!-- 🚚 Availability & Shipping -->
-          <div class="availability">
-            <p>Currently Unavailable - Limited Edition</p>
-            <p>Store pickup: Not available</p>
-            <p>Shipping: Out of Stock</p>
-            <div class="zip-checker">
-              <label>Check same-day delivery:</label>
-              <input type="text" placeholder="Enter ZIP code" />
-            </div>
-          </div>
-
-          <!-- 🔥 Social Proof -->
-          <div class="social-proof">
-            <p>22 PEOPLE ARE SHOPPING THIS ITEM NOW <span class="pulse"></span></p>
-          </div>
-
-          <!-- 📱 Mobile CTAs -->
-          <div class="mobile-ctas">
-            <button class="primary-cta" disabled>Join Waitlist - Currently Unavailable</button>
-            <button class="secondary-cta">Add to Wishlist</button>
-            <div class="payment-buttons">
-              <button disabled>Apple Pay</button>
-              <button disabled>Google Pay</button>
-              <button disabled>Shop Pay</button>
-            </div>
-            <p class="contact-info">📞 Call for Stock Updates: 1-888-922-2336</p>
-          </div>
-        </div>
         <div class="section-1">
           <div class="color valign-text-middle opensans-bold-torea-bay-14px">Color:</div>
           <div class="color-1 valign-text-middle opensans-normal-mine-shaft-14px">Black</div>
@@ -536,43 +509,42 @@
           <div class="container">
             <div class="reviews valign-text-middle opensans-bold-science-blue-16px">REVIEWS</div>
           </div>
+          
           <img class="vector-25" src="img/vector-46.svg" alt="Vector" />
         </div>
         <div class="region-1">
           <div class="container-17">
-            <div class="heading-2-1">
+            <div class="review-highlights-custom">
               <div class="review-highlights valign-text-middle">Review Highlights</div>
-            </div>
-            <div class="testimonial-block">
-              <h3 class="testimonial-heading">⭐ Celebrity Testimonial</h3>
-              <blockquote class="celebrity-quote">
-                "I was a fan of the brand, of the comfort of the shoe and the accessibility in terms of affordability.
-                When we
-                first started talking about the potential to go ahead and partner in an official way, their enthusiasm
-                for any
-                creative input I had just made me go, yeah, these were the absolute right people to get to partner
-                with."
-                <span class="quote-author">— Jelly Roll, Recording Artist & Collaborator</span>
-              </blockquote>
-              <h3 class="testimonial-heading">✅ Real Customer Testimonials (Verified)</h3>
-              <ul class="customer-testimonials">
-                <li><strong>Scotty (Zappos):</strong> "These are some of the most comfortable shoes I have ever had. I
-                  have
-                  gotten so many comments..."</li>
-                <li><strong>James (Zappos):</strong> "Super comfortable and lightweight! Love the style and fit."</li>
-                <li><strong>Anonymous (Zappos):</strong> "Husband never wants to get new shoes but these he liked
-                  immediately."</li>
-                <li><strong>Aaron (Mechanic):</strong> "Perfect for what I have them for. I wanted something loose and
-                  lazy
-                  feeling..."</li>
-              </ul>
-              <h3 class="testimonial-heading">📊 Social Proof Stats</h3>
-              <ul class="social-proof-stats">
-                <li>4.8/5 Average Rating</li>
-                <li>14,457+ Verified Reviews</li>
-                <li>85% 5-Star Ratings</li>
-                <li>97% Recommend to Friends</li>
-              </ul>
+              <div class="testimonial-block">
+                <h3 class="testimonial-heading">⭐ Celebrity Testimonial</h3>
+                <blockquote class="celebrity-quote">
+                  "I was a fan of the brand, of the comfort of the shoe and the accessibility in terms of affordability.
+                  When we first started talking about the potential to go ahead and partner in an official way, their
+                  enthusiasm for any creative input I had just made me go, yeah, these were the absolute right people to
+                  get to partner with."
+                  <span class="quote-author">— Jelly Roll, Recording Artist & Collaborator</span>
+                </blockquote>
+                <h3 class="testimonial-heading">✅ Real Customer Testimonials (Verified)</h3>
+                <ul class="customer-testimonials">
+                  <li><strong>Scotty (Zappos):</strong> "These are some of the most comfortable shoes I have ever had. I
+                    have
+                    gotten so many comments..."</li>
+                  <li><strong>James (Zappos):</strong> "Super comfortable and lightweight! Love the style and fit."</li>
+                  <li><strong>Anonymous (Zappos):</strong> "Husband never wants to get new shoes but these he liked
+                    immediately."</li>
+                  <li><strong>Aaron (Mechanic):</strong> "Perfect for what I have them for. I wanted something loose and
+                    lazy
+                    feeling..."</li>
+                </ul>
+                <h3 class="testimonial-heading">📊 Social Proof Stats</h3>
+                <ul class="social-proof-stats">
+                  <li>4.8/5 Average Rating</li>
+                  <li>14,457+ Verified Reviews</li>
+                  <li>85% 5-Star Ratings</li>
+                  <li>97% Recommend to Friends</li>
+                </ul>
+              </div>
             </div>
             <br>
             <div class="group">
@@ -595,11 +567,6 @@
             <div class="button-2">
               <div class="see-all-reviews valign-text-middle">SEE ALL REVIEWS</div>
             </div>
-          </div>
-          <div class="button-show-product-reviews">
-            <div class="heading-2-reviews valign-text-middle">REVIEWS</div>
-            <div class="button-authentic-rev"></div>
-            <div class="horizontal-divider-2"></div>
           </div>
         </div>
         <div class="horizontal-divider"></div>
